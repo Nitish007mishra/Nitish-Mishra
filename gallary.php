@@ -21,7 +21,7 @@ function change(obj){
 </script>
 </head>
 <body>
-<?php include('include/header.html'); ?>
+<?php include('include/header.php'); ?>
 <div style="width:100%;">
 <center>
 <img src="image/2.jpg" id="myimg" height="300px" width="700px">
@@ -50,9 +50,26 @@ function change(obj){
 <div class="di">
 <img src="Image/11.jpg" width="100px" height="100px" onMouseOver="change(this)">
 </div>
+<div style="width:100%; height:auto;">
+<div class="di">
+<img src="Image/40.jpg" width="100px" height="100px" onMouseOver="change(this)">
+</div>
 
 <div class="di">
-<img src="Image/13.jpg" width="100px" height="100px" onMouseOver="change(this)">
+<img src="Image/41.jpg" width="100px" height="100px" onMouseOver="change(this)">
+</div>
+<div class="di">
+<img src="Image/42.jpg" width="100px" height="100px" onMouseOver="change(this)">
+</div>
+<div class="di">
+<img src="Image/43.jpg" width="100px" height="100px" onMouseOver="change(this)">
+</div>
+<div class="di">
+<img src="Image/44.jpg" width="100px" height="100px" onMouseOver="change(this)">
+</div>
+<div class="di">
+<img src="Image/45.jpg" width="100px" height="100px" onMouseOver="change(this)">
+</div>
 </div>
 </marquee>
 </div>

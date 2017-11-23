@@ -30,7 +30,7 @@ h2
 }
 </style>
 </head><body>
-<?php include('include/header.html'); ?>
+<?php include('include/header.php'); ?>
 
 
 <h1>Are you planning a corporate event?</h1>

@@ -50,16 +50,18 @@ background-color:red;
 </style>
 </head>
 <body>
-<?php include("include/header.html"); ?>
+<?php include("include/header.php"); ?>
 <div class="container">
 <img src="slider/user.png" style="height:100px; width:100px;margin-top:-50px;margin-buttom:10px;">
-<div class="input-form">
-<input type="text" placeholder="user_name">
 
-<input type="password" placeholder="************">
-</div>
+<form method="post" action="control/login.php">
+<input type="text" name="user" placeholder="User Id">
+
+<input type="password" name="pwd" placeholder="************">
+
 <input type="submit" value="Login!!" class="btn">
 <input type="submit" value="Register" class="btn">
+</form>
 </div>
 
 <video autoplay="autoplay" loop="loop">

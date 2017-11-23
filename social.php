@@ -26,7 +26,7 @@ p{
 </style>
 </head>
 <body>
-<?php include('include/header.html'); ?>
+<?php include('include/header.php'); ?>
 <h1>Are you planning a milestone event?</h1>
 <p>1. Honeymoon: Travel plans, tickets, and accommodations.</p>
 <p>2. Gear & Bearing Expo</p>

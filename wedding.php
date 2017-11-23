@@ -26,7 +26,7 @@ body{
 </style>
 </head>
 <body>
-<?php include('include/header.html'); ?>
+<?php include('include/header.php'); ?>
 <center>
 <h1 style="color:red;font:Book Antiqua;font-family:Book Antiqua;">Are you engaged? Or you planning a wedding?</h1> </center>
 <h3>BRONZE WEDDING Starting@10000 $</h3>

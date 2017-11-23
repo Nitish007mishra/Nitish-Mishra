@@ -26,7 +26,7 @@ window.onclick = function(event) {
 </script>
 </head>
 <body>
-<?php include("include/header.html"); ?>
+<?php include("include/header.php"); ?>
 <div>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 	<ol class="carousel-indicators">
@@ -85,7 +85,7 @@ window.onclick = function(event) {
 <div>
 <table>
 <tr>
-<td><a href="Corporate.php">Corporate Event</a></td>
+<td margin-left:70px;><a href="Corporate.php">Corporate Event</a></td>
 <td><a href="wedding.php">Wedding Event</a></td>
 <td><a href="Social.php">Social Event</a></td>
 </tr>
